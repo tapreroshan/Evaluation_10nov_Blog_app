@@ -1,0 +1,29 @@
+.container{
+    width: 80%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+}
+.postelement{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 40px;
+}
+.filter{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    gap: 10px;
+
+}
+.filterbyuser{
+    display: flex;
+    flex-direction: row ;
+}
+.root{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
